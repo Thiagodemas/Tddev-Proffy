@@ -1,6 +1,6 @@
 import React from "react";
 
-// import { Container } from './styles';
+import "./styles.css";
 
 import LogoImg from "../../assets/images/logo.svg";
 import LandingImg from "../../assets/images/landing.svg";
@@ -24,18 +24,19 @@ const Landing: React.FC = () => {
         />
 
         <div className="buttons-container">
-            <a href="" className="study">
-                <img src={StudyIcon} alt="Study Icon"/>
-                Estudar
-            </a>
-            <a href="" className="give-classes">
-                <img src={GiveClassesIcon} alt="Study Icon"/>
-                Estudar
-            </a>
+          <a href="/" className="study">
+            <img src={StudyIcon} alt="Study Icon" />
+            Estudar
+          </a>
+          <a href="/" className="give-classes">
+            <img src={GiveClassesIcon} alt="Study Icon" />
+            Estudar
+          </a>
         </div>
 
         <span className="total-connections">
-            Total de 200 conexões já realizadas <img src={PurpleHeartIcon} alt="Heart"/>
+          Total de 200 conexões já realizadas{" "}
+          <img src={PurpleHeartIcon} alt="Heart" />
         </span>
       </div>
     </div>
